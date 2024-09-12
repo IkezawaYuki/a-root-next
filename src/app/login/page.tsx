@@ -6,11 +6,11 @@ import { Metadata } from "next";
 import defaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
-  title: "Next.js SignIn Page | TailAdmin - Next.js Dashboard Template",
+  title: "A-Root ログイン",
   description: "This is Next.js Signin Page TailAdmin Dashboard Template",
 };
 
-const SignIn: React.FC = () => {
+const Login: React.FC = () => {
   return (
     <main>
       <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
@@ -252,4 +252,4 @@ const SignIn: React.FC = () => {
   );
 };
 
-export default SignIn;
+export default Login;

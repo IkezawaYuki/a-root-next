@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, ReactNode } from "react";
-import Sidebar from "@/components/Sidebar";
+import SidebarAdmin from "@/components/SidebarAdmin";
 import Header from "@/components/Header";
 
-export default function defaultLayout({
+export default function AdminLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -14,7 +14,10 @@ export default function defaultLayout({
       {/* <!-- ===== Page Wrapper Start ===== --> */}
       <div className="flex">
         {/* <!-- ===== Sidebar Start ===== --> */}
-        <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+        <SidebarAdmin
+          sidebarOpen={sidebarOpen}
+          setSidebarOpen={setSidebarOpen}
+        />
         {/* <!-- ===== Sidebar End ===== --> */}
 
         {/* <!-- ===== Content Area Start ===== --> */}
