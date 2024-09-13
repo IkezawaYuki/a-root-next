@@ -1,3 +1,4 @@
+// @ts-ignore
 import { BRAND } from "@/types/brand";
 import Image from "next/image";
 

@@ -1,19 +1,19 @@
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import Image from "next/image";
 import { Metadata } from "next";
-import Layout from "@/components/Layouts/Layout";
+import AdminLayout from "@/components/Layouts/AdminLayout";
 
 export const metadata: Metadata = {
-  title: "Next.js Settings | TailAdmin - Next.js Dashboard Template",
+  title: "A-Root 設定",
   description:
     "This is Next.js Settings page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
 const Settings = () => {
   return (
-    <Layout>
+    <AdminLayout>
       <div className="mx-auto max-w-270">
-        <Breadcrumb pageName="Settings" />
+        <Breadcrumb pageName="設定" />
 
         <div className="grid grid-cols-5 gap-8">
           <div className="col-span-5 xl:col-span-3">
@@ -317,7 +317,7 @@ const Settings = () => {
           </div>
         </div>
       </div>
-    </Layout>
+    </AdminLayout>
   );
 };
 

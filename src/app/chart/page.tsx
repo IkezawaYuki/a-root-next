@@ -2,6 +2,7 @@ import Chart from "@/components/Charts/page";
 import { Metadata } from "next";
 import defaultLayout from "@/components/Layouts/DefaultLayout";
 import React from "react";
+import DefaultLayout from "@/components/Layouts/Layout";
 
 export const metadata: Metadata = {
   title: "Next.js Chart | TailAdmin - Next.js Dashboard Template",
@@ -11,9 +12,9 @@ export const metadata: Metadata = {
 
 const BasicChartPage: React.FC = () => {
   return (
-    <defaultLayout>
+    <DefaultLayout>
       <Chart />
-    </defaultLayout>
+    </DefaultLayout>
   );
 };
 

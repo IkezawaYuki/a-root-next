@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const TablesPage = () => {
   return (
     <AdminLayout>
-      <Breadcrumb pageName="Tables" />
+      <Breadcrumb pageName="インスタグラム連携" />
 
       <div className="flex flex-col gap-10">
         <TableOne />

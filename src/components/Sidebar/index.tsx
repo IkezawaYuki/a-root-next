@@ -100,7 +100,7 @@ const menuGroups = [
           </svg>
         ),
         label: "インスタグラム連携",
-        route: "/tables",
+        route: "/instagram",
       },
       {
         icon: (
